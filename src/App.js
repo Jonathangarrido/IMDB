@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import Home from './pages/Home'
 
 const App = ({ store }) => (
-  <Provider>
+  <Provider store={store}> 
     <Router>
       <div>
         <Route exact path='/' component={Home} />

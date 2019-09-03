@@ -1,4 +1,4 @@
-import * as types from '../../consts/actionTypes'
+import * as types from '../../consts/actionsTypes'
 
 export default function(state = [], action) {
 	switch (action.type) {
@@ -13,8 +13,3 @@ export default function(state = [], action) {
 			return state
 	}
 }
-
-
-id
-regionId
-countryId
