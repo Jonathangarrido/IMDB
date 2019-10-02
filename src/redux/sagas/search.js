@@ -1,13 +1,14 @@
-import { put, call, takeLatest } from 'redux-saga/effects'
+import { takeLatest } from 'redux-saga/effects'
 import {
   SEARCH_MOVIE_START,
-  SEARCH_MOVIE_ERROR,
-  SEARCH_MOVIE_COMPLETE
+  // SEARCH_MOVIE_ERROR,
+  // SEARCH_MOVIE_COMPLETE
 } from '../../consts/actionsTypes'
 
-export function* searchMovie({ payload }) {
+export function searchMovie({ payload }) {
+  console.log('searchMovie PPPPPP')
   try {
-    
+    console.log('llamo')
   } catch (error) {
     
   }

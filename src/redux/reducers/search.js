@@ -1,4 +1,4 @@
-import { get } from 'lodash'
+// import { get } from 'lodash'
 import {
   SEARCH_MOVIE_START,
   SEARCH_MOVIE_ERROR,
@@ -8,19 +8,15 @@ import {
 const initialState = {}
 
 export default function(state = initialState, action) {
+  console.log('action:', action)
   switch (action.type) {
     case SEARCH_MOVIE_START:
       return { ...state }
-      break;
     case SEARCH_MOVIE_ERROR:
       return { ...state }
-      break;
     case SEARCH_MOVIE_COMPLETE:
       return { ...state }
-      break;
-  
     default:
       return { ...state }
-      break;
   }
 }
